@@ -21,7 +21,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C90FFBA998D541B7BEDB016AE56A7942"
+        "MsmKey" = "8:_CFD68409E633488AB8E6C00549828F9C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -95,6 +95,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -323,7 +331,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4186A1A2E04A4F558EBBAC9FCA2C9593"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4E174ECCD208468185C2B2F9AEBAB14B"
             {
             "Name" = "8:File Encryption App"
             "Arguments" = "8:"
@@ -331,13 +339,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C90FFBA998D541B7BEDB016AE56A7942"
+            "Target" = "8:_CFD68409E633488AB8E6C00549828F9C"
             "Folder" = "8:_F5C9B284D1C4431B9B032D01F1CDA585"
             "WorkingFolder" = "8:_0B7CB0698D1043EE938341740ADA3C65"
             "Icon" = "8:_C7E56782F39E43CF93092178972B7450"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_94369F4D0D9F4C4787BEF97540B59925"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D9FD673D472C4EB4B32725C8C881410E"
             {
             "Name" = "8:File Encryption App"
             "Arguments" = "8:"
@@ -345,21 +353,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C90FFBA998D541B7BEDB016AE56A7942"
-            "Folder" = "8:_0B7CB0698D1043EE938341740ADA3C65"
-            "WorkingFolder" = "8:_0B7CB0698D1043EE938341740ADA3C65"
-            "Icon" = "8:_C7E56782F39E43CF93092178972B7450"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BD390A8D8F824D4C9CA9CD30AA13A146"
-            {
-            "Name" = "8:File Encryption App"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_C90FFBA998D541B7BEDB016AE56A7942"
+            "Target" = "8:_CFD68409E633488AB8E6C00549828F9C"
             "Folder" = "8:_EACB504BFA6144CDB380C3DA1454CFD7"
             "WorkingFolder" = "8:_0B7CB0698D1043EE938341740ADA3C65"
             "Icon" = "8:_C7E56782F39E43CF93092178972B7450"
@@ -764,9 +758,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C90FFBA998D541B7BEDB016AE56A7942"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CFD68409E633488AB8E6C00549828F9C"
             {
-            "SourcePath" = "8:..\\bouncyEncDec\\obj\\Debug\\net8.0-windows\\bouncyEncDec.dll"
+            "SourcePath" = "8:..\\bouncyEncDec\\obj\\Release\\net8.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0B7CB0698D1043EE938341740ADA3C65"
@@ -785,7 +779,7 @@
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
+            "OutputGroupCanonicalName" = "8:PublishItems"
             "OutputProjectGuid" = "8:{3199C184-A98D-4BE2-B330-720990F4CD5B}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
